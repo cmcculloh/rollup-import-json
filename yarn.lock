@@ -2,19 +2,50 @@
 # yarn lockfile v1
 
 
-fsevents@~2.3.2:
-  version "2.3.2"
-  resolved "https://registry.yarnpkg.com/fsevents/-/fsevents-2.3.2.tgz#8a526f78b8fdf4623b709e0b975c52c24c02fd1a"
-  integrity sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==
+"@rollup/plugin-json@^4.1.0":
+  "integrity" "sha512-yfLbTdNS6amI/2OpmbiBoW12vngr5NW2jCJVZSBEz+H5KfUJZ2M7sDjk0U6GOOdCWFVScShte29o9NezJ53TPw=="
+  "resolved" "https://registry.npmjs.org/@rollup/plugin-json/-/plugin-json-4.1.0.tgz"
+  "version" "4.1.0"
+  dependencies:
+    "@rollup/pluginutils" "^3.0.8"
 
-rollup@^2.75.6:
-  version "2.75.6"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.75.6.tgz#ac4dc8600f95942a0180f61c7c9d6200e374b439"
-  integrity sha512-OEf0TgpC9vU6WGROJIk1JA3LR5vk/yvqlzxqdrE2CzzXnqKXNzbAwlWUXis8RS3ZPe7LAq+YUxsRa0l3r27MLA==
+"@rollup/pluginutils@^3.0.8":
+  "integrity" "sha512-GksZ6pr6TpIjHm8h9lSQ8pi8BE9VeubNT0OMJ3B5uZJ8pz73NPiqOtCog/x2/QzM1ENChPKxMDhiQuRHsqc+lg=="
+  "resolved" "https://registry.npmjs.org/@rollup/pluginutils/-/pluginutils-3.1.0.tgz"
+  "version" "3.1.0"
+  dependencies:
+    "@types/estree" "0.0.39"
+    "estree-walker" "^1.0.1"
+    "picomatch" "^2.2.2"
+
+"@types/estree@0.0.39":
+  "integrity" "sha512-EYNwp3bU+98cpU4lAWYYL7Zz+2gryWH1qbdDTidVd6hkiR6weksdbMadyXKXNPEkQFhXM+hVO9ZygomHXp+AIw=="
+  "resolved" "https://registry.npmjs.org/@types/estree/-/estree-0.0.39.tgz"
+  "version" "0.0.39"
+
+"estree-walker@^1.0.1":
+  "integrity" "sha512-1fMXF3YP4pZZVozF8j/ZLfvnR8NSIljt56UhbZ5PeeDmmGHpgpdwQt7ITlGvYaQukCvuBRMLEiKiYC+oeIg4cg=="
+  "resolved" "https://registry.npmjs.org/estree-walker/-/estree-walker-1.0.1.tgz"
+  "version" "1.0.1"
+
+"fsevents@~2.3.2":
+  "integrity" "sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA=="
+  "resolved" "https://registry.npmjs.org/fsevents/-/fsevents-2.3.2.tgz"
+  "version" "2.3.2"
+
+"picomatch@^2.2.2":
+  "integrity" "sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA=="
+  "resolved" "https://registry.npmjs.org/picomatch/-/picomatch-2.3.1.tgz"
+  "version" "2.3.1"
+
+"rollup@^1.20.0 || ^2.0.0", "rollup@^1.20.0||^2.0.0", "rollup@^2.75.6":
+  "integrity" "sha512-OEf0TgpC9vU6WGROJIk1JA3LR5vk/yvqlzxqdrE2CzzXnqKXNzbAwlWUXis8RS3ZPe7LAq+YUxsRa0l3r27MLA=="
+  "resolved" "https://registry.npmjs.org/rollup/-/rollup-2.75.6.tgz"
+  "version" "2.75.6"
   optionalDependencies:
-    fsevents "~2.3.2"
+    "fsevents" "~2.3.2"
 
-test-json-import@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/test-json-import/-/test-json-import-1.0.4.tgz#a95bf4558fdad4a18c2014aa344ed0fc75b3ce23"
-  integrity sha512-wAfVQWiKsJxav2Eu+Gu1U41gpUbc1STCjf6Zf3ucn3s8jZixWdmizONNyA7z+phXC1rM0f+0PhpyGN0bEfTxbA==
+"test-json-import@^1.0.4":
+  "integrity" "sha512-wAfVQWiKsJxav2Eu+Gu1U41gpUbc1STCjf6Zf3ucn3s8jZixWdmizONNyA7z+phXC1rM0f+0PhpyGN0bEfTxbA=="
+  "resolved" "https://registry.npmjs.org/test-json-import/-/test-json-import-1.0.4.tgz"
+  "version" "1.0.4"

@@ -12,11 +12,10 @@
     "url": "https://cmcculloh.com"
   },
   "scripts": {
-    "bundle": "yarn rollup *.js",
-    "bundle:npm": "yarn rollup index.js",
-    "bundle:no-npm": "yarn rollup no-npm-index.js"
+    "bundle": "yarn rollup -c rollup.config.js"
   },
   "devDependencies": {
+    "@rollup/plugin-json": "^4.1.0",
     "rollup": "^2.75.6"
   },
   "dependencies": {
