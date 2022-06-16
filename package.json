@@ -12,7 +12,9 @@
     "url": "https://cmcculloh.com"
   },
   "scripts": {
-    "bundle": "yarn rollup index.js --format cjs --file bundle.js"
+    "bundle": "yarn rollup *.js",
+    "bundle:npm": "yarn rollup index.js",
+    "bundle:no-npm": "yarn rollup no-npm-index.js"
   },
   "devDependencies": {
     "rollup": "^2.75.6"

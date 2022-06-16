@@ -1,4 +1,4 @@
-import data from "./node_modules/test-json-import/data.json" assert { type: "json" };
+import data from "test-json-import/data.json" assert { type: "json" };
 import { showMeTheData } from "test-json-import/index.js";
 
 const getData = () => {
