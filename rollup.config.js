@@ -1,3 +1,4 @@
+import importAssertions from "rollup-plugin-import-assertions";
 import json from "@rollup/plugin-json";
 
 export default [
@@ -15,7 +16,7 @@ export default [
 			file: "output/old-ways.js",
 			format: "es",
 		},
-		plugins: [json()],
+		plugins: [importAssertions()],
 	},
 	{
 		input: "src/index.js",
@@ -23,6 +24,6 @@ export default [
 			file: "output/index.js",
 			format: "es",
 		},
-		plugins: [json()],
+		plugins: [importAssertions()],
 	},
 ];

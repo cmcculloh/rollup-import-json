@@ -2,6 +2,10 @@
 
 This repository is a minimal test-case to test `import` of `.json` from both npm modules _and_ within your own code _in rollup_.
 
+This does not work natively in rollup, but luckily [there is a rollup plugin that adds support it](https://github.com/swiing/rollup-plugin-import-assertions)!
+
+There is also [an issue open in rollup](https://github.com/rollup/rollup/issues/4530) for it.
+
 ## Test it out!
 
 1. clone this repo.
