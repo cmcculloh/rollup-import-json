@@ -1,0 +1,23 @@
+{
+  "name": "rollup-import-json",
+  "version": "1.0.0",
+  "description": "test esm json imports with rollup",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "repository": "cmcculloh/rollup-import-json",
+  "author": {
+    "name": "Christopher McCulloh",
+    "email": "cmcculloh@gmail.com",
+    "url": "https://cmcculloh.com"
+  },
+  "scripts": {
+    "bundle": "yarn rollup index.js --format cjs --file bundle.js"
+  },
+  "devDependencies": {
+    "rollup": "^2.75.6"
+  },
+  "dependencies": {
+    "test-json-import": "^1.0.4"
+  }
+}
