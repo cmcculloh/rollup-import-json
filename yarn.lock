@@ -75,3 +75,8 @@ rollup@^2.75.6:
   integrity sha512-OEf0TgpC9vU6WGROJIk1JA3LR5vk/yvqlzxqdrE2CzzXnqKXNzbAwlWUXis8RS3ZPe7LAq+YUxsRa0l3r27MLA==
   optionalDependencies:
     fsevents "~2.3.2"
+
+test-json-import@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/test-json-import/-/test-json-import-1.0.4.tgz#a95bf4558fdad4a18c2014aa344ed0fc75b3ce23"
+  integrity sha512-wAfVQWiKsJxav2Eu+Gu1U41gpUbc1STCjf6Zf3ucn3s8jZixWdmizONNyA7z+phXC1rM0f+0PhpyGN0bEfTxbA==
